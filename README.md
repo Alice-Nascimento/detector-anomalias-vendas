@@ -11,7 +11,7 @@ Este projeto simula um agente de Inteligência Artificial capaz de identificar a
 - NumPy
 - Scikit-learn (Isolation Forest)
 - Matplotlib & Seaborn
-
+- Jupyter Notebook
 ---
 
 ## 🔍 O que o projeto faz
@@ -23,7 +23,7 @@ Este projeto simula um agente de Inteligência Artificial capaz de identificar a
 - Gera e salva dois gráficos:
   - Dispersão (quantidade × total da venda)
   - Barras (distribuição de anomalias por produto)
-
+- Análise Exploratória de Dados (EDA)
 ---
 
 ## 📊 Exemplo de resultado
