@@ -9,7 +9,11 @@ Observação:
 """
 import matplotlib.pyplot as plt  # Para criação de gráficos e visualizações
 import seaborn as sns  # Para visualização de dados com estilo aprimorado
+import os
 
+base_dir = os.path.dirname(os.path.abspath(__file__))
+output_dir = os.path.join(base_dir, "..", "outputs")
+os.makedirs(output_dir, exist_ok=True)
 sns.set_theme(style="whitegrid")
 
 
@@ -29,7 +33,7 @@ def grafico_dispersao(df):
     plt.tight_layout()
     plt.ylim(df['total_venda'].min() - 100, df['total_venda'].max() + 1000)
     plt.xlim(df['quantidade'].min() - 1, df['quantidade'].max() + 1)
-    plt.savefig('outputs/grafico_dispersao.png', dpi=300)
+    plt.savefig(os.path.join(output_dir, "grafico_dispersao.png"), dpi=300)
     plt.show()
 
 
@@ -46,5 +50,5 @@ def grafico_barras(df):
     plt.ylabel('Quantidade de Registros')
     plt.legend(title='Anomalia')
     plt.tight_layout()
-    plt.savefig('outputs/grafico_barras.png', dpi=300)
+    plt.savefig(os.path.join(output_dir, "grafico_barras.png"), dpi=300)
     plt.show()
