@@ -28,8 +28,8 @@ Este projeto simula um agente de Inteligência Artificial capaz de identificar a
 
 ## 📊 Exemplo de resultado
 
-![Gráfico de Dispersão](grafico_dispersao.png)
-![Gráfico de Barras](grafico_barras.png)
+![Gráfico de Dispersão](outputs/grafico_dispersao.png)
+![Gráfico de Barras](outputs/grafico_barras.png)
 
 ---
 
