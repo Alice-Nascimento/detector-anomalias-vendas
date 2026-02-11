@@ -1,7 +1,6 @@
-# 🧠 Mini Agente de IA para Detecção de Anomalias em Dados de Vendas
+# 🧠 Detecção de Anomalias em Dados de Vendas
 
-Este projeto simula um agente de Inteligência Artificial capaz de identificar anomalias em dados de vendas, utilizando o algoritmo Isolation Forest.
-
+Este projeto implementa um sistema de detecção de anomalias em dados de vendas, utilizando o algoritmo Isolation Forest.
 ---
 
 ## 🚀 Tecnologias usadas
